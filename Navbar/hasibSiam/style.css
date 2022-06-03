@@ -1,0 +1,42 @@
+body{
+    background-color: gray;
+}
+
+.header{
+    padding: 20px;
+}
+
+.header div{
+    background-color: yellow;
+
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+ul{
+    /* border: 2px solid white;
+    background-color: white; */
+    display: inline-flex;
+    width: 35%;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    background-color: red;
+
+}
+
+.sign in{
+    float: left;
+}
+
+.subscribe{
+    float: right;
+}

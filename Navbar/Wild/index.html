@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;0,500;0,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link href="style.css" type="text/css" rel="stylesheet">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <!-- <i class="material-icons">hiking</i> -->
+            <a href="#" class="logo">WilD</a>
+        </div>
+        <ul>
+            <li class="login"><a href="#">login</a></li>
+            <li class="search">
+                <i class="material-icons">search</i>
+            </li>
+
+            <li class="galary"><a href="#">Galary</a></li>
+            <li class="subscribe"><a href="#">Subscribe</a></li>
+            <li class="menu">
+                <i class="material-icons">menu</i>
+            </li>
+        </ul>
+    </header>
+
+    <section class="banner"></section>
+
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+</body>
+
+</html>

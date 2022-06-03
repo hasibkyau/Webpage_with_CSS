@@ -1,0 +1,77 @@
+body{
+    background: #75c350;
+}
+.loginBox{
+    margin: auto;
+    margin-top: 200px;
+    background: white;
+    width: 400px;
+    padding: 40px;
+    box-shadow: 0px 0px 15px -7px black;
+
+    transform-style: preserve-3d;
+    transform: rotateY(10deg);
+
+}
+
+.loginBox:hover{
+    /* transform: rotate(45deg) ; */
+    /* scale: 1.1; */
+    /* transform: skewY(10deg); */
+    /* transform: translate(100px); */
+    /* perspective: 200px  ; */
+}
+
+.loginBox input{
+    width: 95%;
+    display: block;
+    padding: 15px 0;
+    padding-left: 20px;
+    background: #f2f2f2;
+    overflow: hidden;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+.loginBox h2{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: rgb(53, 52, 52);
+    text-shadow: 1px 1px 1px darkblue;
+    font-size: 16px;
+}
+
+.submit{
+    background: linear-gradient(#6cc54c, #1be615, #38f728) !important;
+    color: white;
+    width: 100% !important;
+}
+.submit:hover{
+    background: red !important;
+    cursor:pointer;
+}
+
+.register{
+    text-align: center;
+    font-size: 18px;
+}
+
+.register span{
+    color: #e2e2e2;
+}
+
+.register a{
+    color: #35BC5E;
+    text-decoration: none;
+}
+
+.div1{
+    padding: 0 10px 0;
+    background: red;
+    perspective: 200px;
+}

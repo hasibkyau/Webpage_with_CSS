@@ -1,0 +1,39 @@
+
+
+        *{
+            margin: 0;
+            padding : 0;
+        }
+        .wrapper{
+            background-color:gainsboro;
+            padding: 10px;
+            display:inline-flexbox;
+        }
+        .navbar{
+            background-color: green !important;
+            padding: 0;
+            margin: 0;
+        }
+
+        .wrapper > section {
+            border: 5px solid black;
+            margin: 20px;
+           
+        }
+
+        .wrapper > section > div{
+            border: 1px solid black;
+            margin: 2px;
+        }
+
+        .left{
+            float: inline-start;
+        }
+
+        .right{
+            float:inline-end;
+        }
+
+        .news_feed{
+            position: inline-flex;
+        }
